@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="8.0.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Bodega">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nombreBodega" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="direccionBodega" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Producto">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nombreProducto" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="false" collection="false"/>
+                <field type="FLOAT" length="255" name="precio" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="cantidad" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Proveedor">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nombre" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="direccion" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="telefono" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="correoElectronico" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
